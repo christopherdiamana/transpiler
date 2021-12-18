@@ -1,12 +1,12 @@
 # Transpiler
-Python script to convert simple linear regression model into C program.
+Python script to convert simple linear regression model into a C program.
 
 
-### Install dependencies
+## Install dependencies
 `pip3 install -r requirements.txt`
 
 
-### Run
+## Run
 `python3 transpile_simple_model.py`
 
 `gcc linear_regression.c -o linear_regression`
